@@ -27,6 +27,9 @@ const trocarTela = (pagina) => {
       <button onClick={ () => trocarTela('login')}>login</button>
       <button onClick={ () => trocarTela('cadastro')}>cadastro</button>
        <button onClick={ () => trocarTela('usuário')}>usuário</button>
+
+       <hr />
+       
       {renderizarTela()}
     </>   
   )
